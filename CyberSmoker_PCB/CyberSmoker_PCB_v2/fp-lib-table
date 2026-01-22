@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CyberSmokerV2_lib_footprints")(type "KiCad")(uri "${KIPRJMOD}/CyberSmokerV2_lib_footprints.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,15 @@
+#ifndef SMOKERCONFIG_H_
+#define SMOKERCONFIG_H_
+
+#define SMOKERCONFIG_DEFAULT_SET_TEMP 200
+#define SMOKERCONFIG_DEFAULT_SMOKER_TEMP 200
+#define SMOKERCONFIG_DEFAULT_MEAT_TEMP 200
+
+#include <stdint.h>
+
+typedef enum{
+    FSM_DIAL_LOCKED,
+    FSM_DIAL_UNLOCKED
+} fsm_dial_state_t;
+
+#endif

@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS 
+        main.c 
+        wifi_wrapper.c 
+        rotary_encoder.c
+        relay.c
+        thermometer.c
+        smoker_fsm.c
+        smokerGraphics.c
+        PID.c
+    INCLUDE_DIRS 
+        "../components/config" 
+        "../components/lcd"
+        "."
+)
